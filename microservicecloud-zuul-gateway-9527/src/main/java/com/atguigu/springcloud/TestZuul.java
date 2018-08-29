@@ -24,6 +24,7 @@ public class TestZuul extends ZuulFilter{
     public Object run() {
            RequestContext ctx = RequestContext.getCurrentContext();
 //        ctx.put(FilterConstants.REQUEST_URI_KEY, modifiedRequestPath);
+        String ssss= "aaaa";
         return null;
     }
 }
