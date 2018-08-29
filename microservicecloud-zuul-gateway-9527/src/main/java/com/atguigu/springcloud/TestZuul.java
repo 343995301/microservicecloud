@@ -22,7 +22,7 @@ public class TestZuul extends ZuulFilter{
 
     @Override
     public Object run() {
-        RequestContext ctx = RequestContext.getCurrentContext();
+           RequestContext ctx = RequestContext.getCurrentContext();
 //        ctx.put(FilterConstants.REQUEST_URI_KEY, modifiedRequestPath);
         return null;
     }
